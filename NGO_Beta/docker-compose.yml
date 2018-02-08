@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ngoweb_beta:
+    image: ngoweb_beta
+    build:
+      context: .
+      dockerfile: NGOWeb_Beta\Dockerfile
